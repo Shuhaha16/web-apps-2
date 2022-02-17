@@ -1,0 +1,8 @@
+<h1><%= @contact.last_name %>, <%= @contact.first_name %></h1>
+
+<ul>
+  <li><%= @contact.email %></li>
+  <li><%= @contact.phone_number %></li>
+</ul>
+
+<p><a href="/companies/<%= @contact.company.id %>">Back to <%= @contact.company.name %></a></p>
